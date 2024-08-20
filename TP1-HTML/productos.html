@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+</head>
+<body>
+    <h1>Alimentos</h1>
+    <img width="840" height="300" src="alimentos.jpg" alt="Alimentos para perros">
+    <h2>Precios</h2>
+    <table border="1" style="font-size: 20px;">
+        <thead>
+            <th>Alimento</th>
+            <th>Precio</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dog Chow</td>
+                <td>$5.000</td>
+            </tr>
+            <tr>
+                <td>Pedigree</td>
+                <td>$7.500</td>
+            </tr>
+            <tr>
+                <td>Dog Selection</td>
+                <td>$13.200</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <h3>Formulario de Compra</h3>
+        <form>
+            <div>
+                <label>Nombre:</label>
+                <input type="text" placeholder="Ingrese su nombre" pattern="[A-Za-z\s]{2,}" required/>
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" placeholder="Ingrese su email" required/>
+            </div>
+            
+            <div>
+                <label>Mensaje:</label>
+                <textarea placeholder="Ingrese los productos que desea." required></textarea>
+            </div>
+            
+    
+            <button type="submit">Enviar</button>
+        </form>
+        
+</body>
+</html>
